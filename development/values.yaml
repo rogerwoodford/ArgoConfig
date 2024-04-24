@@ -1,0 +1,7 @@
+# structured so you can add more appsets for differing requirements. eg different source repos.
+core:
+  namespaces:
+    - name: frontend
+      allowIngress: true
+    - name: backend
+      allowIngress: false
