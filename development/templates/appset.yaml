@@ -14,7 +14,7 @@ spec:
       {{- end }}
   template:
     metadata:
-      name: '{{`{{path.basename}}`}}'
+      name: '{{`{{path[0]}}-{{path.basename}}`}}'
       labels:
         environment: prod
       finalizers:
