@@ -16,7 +16,7 @@ spec:
     metadata:
       name: '{{`{{path[0]}}-{{path.basename}}`}}'
       labels:
-        environment: prod
+        environment: development
       finalizers:
         - resources-finalizer.argocd.argoproj.io
     spec:
